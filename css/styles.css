@@ -1,0 +1,16 @@
+.butterfly{
+  background:url("https://s-media-cache-ak0.pinimg.com/564x/b8/c3/e9/b8c3e95010a7a4cbd7f239fdce6749c2.jpg");
+  background-repeat:no-repeat;
+  width:164px;
+  height:237px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-position: 0 0;
+   animation: flying 3s steps(15);
+}
+
+@keyframes flying {
+  100% {background-position: -2800px 0;}
+}
